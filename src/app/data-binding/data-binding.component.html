@@ -1,0 +1,7 @@
+<div class="form-group">
+    <label for="usr">Name:</label>
+    <input type="text" class="form-control" id="usr" [(ngModel)]="name">
+</div>
+<p>{{'Your name is : ' + name}}</p>
+
+<button type="button" class="btn btn-default" [disabled]="name === ''" (click)="resetName()">Reset</button>
