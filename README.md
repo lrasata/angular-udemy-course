@@ -1,4 +1,6 @@
 # AngularUdemyCourseApp
+This project contains suggestions of solutions for the assignments provided in the **Angular - The Complete Guide (2022 Edition)** Course on [Udemy](https://udemy.com).
+This Angular course provided by [Academind](https://academind.com) explores the fundamentals about modules, directives, components, databinding, routing, HTTP access, Services, Forms, Authentication and more.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
