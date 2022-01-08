@@ -9,6 +9,10 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { DirectivesComponent } from './directives/directives.component';
+import { AppCmpBindingComponent } from './app-cmp-binding/app-cmp-binding.component';
+import { GameControlComponent } from './app-cmp-binding/game-control/game-control.component';
+import { OddComponent } from './app-cmp-binding/game-control/odd/odd.component';
+import { EvenComponent } from './app-cmp-binding/game-control/even/even.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { DirectivesComponent } from './directives/directives.component';
     WarningAlertComponent,
     SuccessAlertComponent,
     DataBindingComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    AppCmpBindingComponent,
+    GameControlComponent,
+    OddComponent,
+    EvenComponent
   ],
   imports: [
     BrowserModule,

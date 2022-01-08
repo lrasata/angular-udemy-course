@@ -1,0 +1,16 @@
+<div class="btn-group">
+    <button type="button" class="btn btn-success" (click)="startCounting()">Start</button>
+    <button type="button" class="btn btn-danger" (click)="stopCounting()">Stop</button>
+</div>
+<br>
+<p>
+    Start counting : {{counter}}
+</p>
+<hr>
+<p>Odd component Display : </p>
+<app-odd [oddNumberList]="oddNumberList"></app-odd>
+<hr>
+<p>Even component Display : </p>
+<app-even [evenNumberList]="evenNumberList"></app-even>
+
+
