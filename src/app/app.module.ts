@@ -2,8 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-
-
 import { AppComponent } from './app.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
@@ -13,6 +11,8 @@ import { AppCmpBindingComponent } from './app-cmp-binding/app-cmp-binding.compon
 import { GameControlComponent } from './app-cmp-binding/game-control/game-control.component';
 import { OddComponent } from './app-cmp-binding/game-control/odd/odd.component';
 import { EvenComponent } from './app-cmp-binding/game-control/even/even.component';
+import { ActiveUsersComponent } from './active-users/active-users.component';
+import { InactiveUsersComponent } from './inactive-users/inactive-users.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,9 @@ import { EvenComponent } from './app-cmp-binding/game-control/even/even.componen
     AppCmpBindingComponent,
     GameControlComponent,
     OddComponent,
-    EvenComponent
+    EvenComponent,
+    ActiveUsersComponent,
+    InactiveUsersComponent
   ],
   imports: [
     BrowserModule,
