@@ -13,6 +13,7 @@ import { OddComponent } from './app-cmp-binding/game-control/odd/odd.component';
 import { EvenComponent } from './app-cmp-binding/game-control/even/even.component';
 import { ActiveUsersComponent } from './active-users/active-users.component';
 import { InactiveUsersComponent } from './inactive-users/inactive-users.component';
+import { TdFormsComponent } from './td-forms/td-forms.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { InactiveUsersComponent } from './inactive-users/inactive-users.componen
     OddComponent,
     EvenComponent,
     ActiveUsersComponent,
-    InactiveUsersComponent
+    InactiveUsersComponent,
+    TdFormsComponent
   ],
   imports: [
     BrowserModule,
