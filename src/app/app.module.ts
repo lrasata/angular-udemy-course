@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
@@ -14,6 +14,7 @@ import { EvenComponent } from './app-cmp-binding/game-control/even/even.componen
 import { ActiveUsersComponent } from './active-users/active-users.component';
 import { InactiveUsersComponent } from './inactive-users/inactive-users.component';
 import { TdFormsComponent } from './td-forms/td-forms.component';
+import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +29,13 @@ import { TdFormsComponent } from './td-forms/td-forms.component';
     EvenComponent,
     ActiveUsersComponent,
     InactiveUsersComponent,
-    TdFormsComponent
+    TdFormsComponent,
+    ReactiveFormsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
