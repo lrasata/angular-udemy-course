@@ -15,6 +15,11 @@ import { ActiveUsersComponent } from './active-users/active-users.component';
 import { InactiveUsersComponent } from './inactive-users/inactive-users.component';
 import { TdFormsComponent } from './td-forms/td-forms.component';
 import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.component';
+import { TransformWithPipeComponent } from './transform-with-pipe/transform-with-pipe.component';
+import { ShortenPipe } from './transform-with-pipe/shorten.pipe';
+import { ReversePipe } from './transform-with-pipe/reverse.pipe';
+import { FilterPipe } from './transform-with-pipe/filter.pipe';
+import { SortPipe } from './transform-with-pipe/sort.pipe';
 
 @NgModule({
   declarations: [
@@ -30,7 +35,12 @@ import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.componen
     ActiveUsersComponent,
     InactiveUsersComponent,
     TdFormsComponent,
-    ReactiveFormsComponent
+    ReactiveFormsComponent,
+    TransformWithPipeComponent,
+    ShortenPipe,
+    ReversePipe,
+    FilterPipe,
+    SortPipe
   ],
   imports: [
     BrowserModule,
